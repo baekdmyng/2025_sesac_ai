@@ -20,6 +20,5 @@ else:
     elif a < 30:
         y = a + 2
     
-    print(y)    
-
+    print(y) 
 
