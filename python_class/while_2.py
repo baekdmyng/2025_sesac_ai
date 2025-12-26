@@ -1,0 +1,13 @@
+#20개의 정수를 입력 받아 그 중 홀수의 합을 계산해 출력하기
+
+total = 0
+i = 1
+
+while i <= 20:
+    num = int(input("정수를 입력하세요: "))
+    if num % 2 == 1:
+        total += num
+        i += 1
+    else:
+        i += 1
+print("홀수의 합:", total)
